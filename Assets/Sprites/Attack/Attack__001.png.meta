@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: f2f1d9afb637ece4eb87f5304246463d
+timeCreated: 1468107307
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack__001_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Attack__001_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 42
+        width: 276
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: -24.5}
+        - {x: 133, y: -16.5}
+        - {x: 138, y: 50.5}
+        - {x: 138, y: 159.5}
+        - {x: 130, y: 174.5}
+        - {x: 94, y: 206.5}
+        - {x: 20, y: 218.5}
+        - {x: -40, y: 218.5}
+        - {x: -41, y: 216.5}
+        - {x: -54, y: 149.5}
+        - {x: -97, y: 77.5}
+        - {x: -116, y: -12.5}
+        - {x: -131, y: -40.5}
+        - {x: -130, y: -153.5}
+        - {x: -138, y: -173.5}
+        - {x: -138, y: -214.5}
+        - {x: -137, y: -217.5}
+        - {x: -82, y: -218.5}
+        - {x: -41, y: -218.5}
+        - {x: -37, y: -213.5}
+        - {x: -42, y: -186.5}
+        - {x: -57, y: -175.5}
+        - {x: -64, y: -173.5}
+        - {x: -12, y: -134.5}
+        - {x: -14, y: -188.5}
+        - {x: -10, y: -200.5}
+        - {x: 67, y: -218.5}
+        - {x: 86, y: -218.5}
+        - {x: 93, y: -197.5}
+        - {x: 32, y: -90.5}
+        - {x: 2, y: -76.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
