@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	Rigidbody2D rigidBdy;
 	Animator anim;
 
-	bool isFacingRight = true;
+	public bool isFacingRight = true;
 	bool isGrounded = false;
 	bool isAlive = true;
 	bool isRestart = false;
@@ -27,8 +27,8 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		anim = GetComponent<Animator>();
 		rigidBdy = GetComponent<Rigidbody2D>();
-		checkGround = GameObject.Find("CheckGround").GetComponent<Transform>();
-		Debug.Log(checkGround.name);
+//		checkGround = GameObject.Find("CheckGround").GetComponent<Transform>();
+//		Debug.Log(checkGround.name);
 	}
 
 	void FixedUpdate() {
@@ -56,9 +56,9 @@ public class PlayerController : MonoBehaviour {
 	void Movement() {
 		if(health < 1) return;
 
-		if(Physics2D.OverlapCircle(checkGround.position, groundRadius, whatIsGround)) {
-			Debug.Log("Touch");
-		}
+//		if(Physics2D.OverlapCircle(checkGround.position, groundRadius, whatIsGround)) {
+//			Debug.Log("Touch");
+//		}
 
 		float hVelocity = Input.GetAxis("Horizontal");
 		rigidBdy.velocity = new Vector2(hVelocity * speed * Time.deltaTime, rigidBdy.velocity.y);
